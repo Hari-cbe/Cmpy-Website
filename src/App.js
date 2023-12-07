@@ -1,12 +1,10 @@
 import './App.css';
+import { Homepage } from './Components/HomePage/Homepage';
+
 
 function App() {
   return (
-    <div className="container drop-shadow-sm">
-      <h3 className="text-3xl font-bold underline font-extralight hover:shadow-xl">
-        Confuss : "The beginning of a great journey begins with a single step"
-      </h3>
-    </div>
+    <Homepage/>
   );
 }
 
