@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from './AboutUs.css';
+import './AboutUs.css';
 
 
 
-function AboutUs() {
+export function AboutUs() {
   return (
-    <div className="aboutusContent">AboutUs</div>
+    <div className="aboutusContent" id='aboutus'>
+      AboutUs
+    </div>
   )
 }
-
-export default AboutUs

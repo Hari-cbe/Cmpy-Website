@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from  "./Header.css"
+import  "./Header.css"
 
-const Header = () => {
+export const Header = () => {
   const navItems = [
     {
         id : "aboutus",
@@ -20,9 +20,15 @@ const Header = () => {
 
   return (
     <div className="header">
-        <h1>Header</h1>
+        <nav>
+          <ul>
+            {navItems.map((item) => (
+                <li>
+                  <a href={`#${item.id}`}>{item.title}</a>
+                </li>
+            ))}
+          </ul>
+        </nav>
     </div>
   )
 }
-
-export default Header

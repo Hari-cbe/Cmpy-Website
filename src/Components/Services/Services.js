@@ -1,11 +1,10 @@
 import React from 'react'
-import styles from './Services.css'
+import './Services.css'
 
 
-function Services() {
+export const Services = ()=> {
   return (
-    <div className="services">Services</div>
+    <div className="services">
+      Services</div>
   )
 }
-
-export default Services

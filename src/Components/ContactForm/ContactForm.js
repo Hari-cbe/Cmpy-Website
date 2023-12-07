@@ -1,12 +1,10 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
-const ContactForm = () => {
+export const ContactForm = () => {
   return(
-    <div id='service'>
+    <div >
       Contact Form
     </div>
   )
 };
-
-export default ContactForm;
