@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { Homepage } from './Components/HomePage/Homepage';
 import { AboutUs }  from './Components/AboutUs/AboutUs'
 import { Header } from './Components/Header/Header';
